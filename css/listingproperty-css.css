@@ -1,0 +1,310 @@
+body{
+  background-color: #1A466C;
+}
+
+.listingproperty-page-container {
+  
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 200vh;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
+}
+.listingproperty-page-owner-container {
+  top: 110px;
+  left: 93px;
+  width: 253.60000610351562px;
+  height: 67px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listingproperty-page-textinput {
+  top: 212px;
+  left: 141px;
+  position: absolute;
+  height: 30px;
+  border-radius: 5px;
+}
+.listingproperty-page-beds-container {
+  top: 111px;
+  left: 428px;
+  width: 254.60000610351562px;
+  height: 66px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listingproperty-page-textinput1 {
+  top: 212px;
+  left: 141px;
+  position: absolute;
+  height: 30px;
+  border-radius: 5px;
+}
+.listingproperty-page-property-description-container {
+  top: 231px;
+  left: 90px;
+  width: 598px;
+  height: 144px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listingproperty-page-textarea {
+  scroll-behavior: auto;
+}
+.listingproperty-page-type-of-bed-container {
+  top: 437px;
+  left: 83px;
+  width: 432.88751220703125px;
+  height: 67.80000114440918px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listingproperty-page-amenities-container {
+  top: 500.60003662109375px;
+  left: 1px;
+  width: 598px;
+  height: 152.39996337890625px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listingproperty-page-city-container {
+  top: 754.6000366210938px;
+  left: 84px;
+  width: 253.60000610351562px;
+  height: 66.39996337890625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listingproperty-page-address-container {
+  top: 877px;
+  left: 76px;
+  width: 605px;
+  height: 121px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listingproperty-page-image {
+  width: 100px;
+  object-fit: cover;
+}
+@media(max-width: 1600px) {
+  .listingproperty-page-text {
+    top: 228px;
+    left: 91px;
+    position: absolute;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: #ADEFD1FF;
+  }
+  .listingproperty-page-owner-container {
+    top: 320px;
+    left: 90px;
+  }
+  .listingproperty-page-textinput {
+    top: 31px;
+    left: 0px;
+  border-radius: 5px;
+  }
+  .listingproperty-page-text1 {
+    top: 0px;
+    left: 4px;
+    position: absolute;
+    color: #ADEFD1FF;
+  }
+  .listingproperty-page-beds-container {
+    top: 322px;
+    left: 418px;
+  }
+  .listingproperty-page-textinput1 {
+    top: 30px;
+    left: 1px;
+  }
+  .listingproperty-page-text2 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    color: #ADEFD1FF;
+  }
+  .listingproperty-page-property-description-container {
+    top: 425px;
+    left: 87px;
+  }
+  .listingproperty-page-text3 {
+    top: 0px;
+    left: 2px;
+    position: absolute;
+    color: #ADEFD1FF;
+  }
+  .listingproperty-page-textarea {
+    top: 29px;
+    left: -1px;
+    width: 596px;
+    height: 50px;
+    position: absolute;
+    padding-bottom: 88px;
+    /* border: 2px solid red; */
+  }
+  .listingproperty-page-type-of-bed-container {
+    top: 621px;
+    left: 84px;
+  }
+  .listingproperty-page-text4 {
+    top: 0px;
+    left: 3px;
+    position: absolute;
+    color: #ADEFD1FF;
+  }
+  .listingproperty-page-select {
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+  }
+  .listingproperty-page-amenities-container {
+    top: 736px;
+    left: 84px;
+  }
+  .listingproperty-page-text5 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    color: #ADEFD1FF;
+  }
+  .listingproperty-page-textarea1 {
+    /* border: 2px solid green; */
+    left: -1px;
+    width: 598px;
+    bottom: -32px;
+    height: 50px;
+    position: absolute;
+    padding-bottom: 88px;
+  }
+  .listingproperty-page-city-container {
+    top: 928px;
+    left: 81px;
+  }
+  .listingproperty-page-text6 {
+    top: 0px;
+    left: 4px;
+    position: absolute;
+    color: #ADEFD1FF;
+  }
+  .listingproperty-page-textinput2 {
+    top: 30.39996337890625px;
+    left: 0px;
+    position: absolute;
+    height: 30px;
+  border-radius: 5px;
+  }
+  .listingproperty-page-address-container {
+    top: 1048px;
+    left: 77px;
+  }
+  .listingproperty-page-text7 {
+    top: 0px;
+    left: 7px;
+    position: absolute;
+    align-self: center;
+    color: #ADEFD1FF;
+  }
+  .listingproperty-page-textarea2 {
+    top: 36px;
+    left: 0px;
+    width: 605px;
+    height: 85px;
+    position: absolute;
+  }
+  .listingproperty-page-button {
+    top: 1228px;
+    left: 255px;
+    width: 247px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    padding-top: var(--dl-space-space-unit);
+  }
+  .listingproperty-page-image {
+    top: 450px;
+    right: 112px;
+    width: 553px;
+    height: 600px;
+    position: absolute;
+    border: 1px solid #ADEFD1FF;
+    border-radius: 50px;
+  }
+}
+@media(max-width: 1200px) {
+  .listingproperty-page-text {
+    top: 139px;
+    left: 329px;
+    position: absolute;
+    font-size: 25px;
+  }
+  .listingproperty-page-textinput {
+    top: 30px;
+    left: 0px;
+  }
+  .listingproperty-page-text1 {
+    top: 0px;
+    left: -1px;
+    position: absolute;
+    align-self: center;
+  }
+  .listingproperty-page-textinput1 {
+    top: 30px;
+    left: 0px;
+  }
+  .listingproperty-page-text2 {
+    top: -2px;
+    left: 1px;
+    position: absolute;
+    align-self: center;
+  }
+  .listingproperty-page-text3 {
+    top: 0px;
+    left: 2px;
+    position: absolute;
+    align-self: center;
+  }
+  .listingproperty-page-text4 {
+    top: 601px;
+    left: 123px;
+    position: absolute;
+    align-self: center;
+  }
+  .listingproperty-page-select {
+    top: 638px;
+    left: 119px;
+    position: absolute;
+  }
+  .listingproperty-page-text5 {
+    top: 0px;
+    left: 2px;
+    position: absolute;
+    align-self: center;
+  }
+}
